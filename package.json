@@ -1,0 +1,49 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/drop": "^3.12.0",
+    "chart.js": "^4.3.0",
+    "chartjs-chart-venn": "^4.2.0",
+    "cheerio": "^1.0.0-rc.12",
+    "daisyui": "^2.51.3",
+    "doc-similarity": "^0.0.1",
+    "install": "^0.13.0",
+    "natural": "^6.2.0",
+    "next": "12.2.0",
+    "node-summarizer": "^1.0.7",
+    "npm": "^9.6.6",
+    "pdfjs-dist": "^3.4.120",
+    "react": "18.2.0",
+    "react-basic-stepper": "^1.0.5",
+    "react-dnd": "^16.0.1",
+    "react-dom": "18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-form-stepper": "^2.0.3",
+    "react-tagcloud": "^2.3.1",
+    "readability-scores": "^1.0.8",
+    "sentiment": "^5.0.2",
+    "string-similarity": "^4.0.4",
+    "text-statistics": "^0.1.1",
+    "venn.js": "^0.2.20"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.1",
+    "@types/react": "18.0.14",
+    "@types/react-dom": "18.0.5",
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "typescript": "4.7.4"
+  }
+}
