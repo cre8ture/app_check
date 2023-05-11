@@ -24,7 +24,7 @@ const KeywordList = ({ keywords1, keywords2, matches }) => {
         </ul>
       </div>
       <div className="flex-1 h-full ml-2 flex flex-col justify-center items-center">
-        <h3 className="text-lg font-medium mb-2">Mission Statement's Top Keywords</h3>
+        <h3 className="text-lg font-medium mb-2">Mission Statement Top Keywords</h3>
         <ul className="list-disc p-4 space-y-2">
           {keywords2.map((keyword) => (
             <li key={keyword}>
