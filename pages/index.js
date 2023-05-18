@@ -12,7 +12,7 @@ import Loading from '../components/Loading'
 import KeywordsStats from '../components/KeywordStats'
 import Venn from '../components/Venn'
 import Footer from '../components/Footer'
-
+import Heading from '../components/Heading'
 
 
 
@@ -80,6 +80,7 @@ const App = () => {
     <div className="p-6 md:max-w-xl mx-auto lg:max-w-3xl"  >
       {/* <Stepper /> */}
       <Draggable >
+        <Heading title={'App-Checker'} />
         <Stepper title={"Current Progress"} currStep={step} />
         <TextInput
           title={'Input your writing'}
