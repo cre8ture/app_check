@@ -43,13 +43,13 @@ const App = () => {
     }
     else {
       setStep(0)
-      setAnalysis({}) // ?
+      setAnalysis('') // ?
     }
 
     if (!text2 && text1) {
       // setLoading2(false)
       setStep(1)
-      setAnalysis({})
+      setAnalysis('')
     }
 
     if (text1 && text2) {
