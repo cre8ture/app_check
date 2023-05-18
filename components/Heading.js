@@ -1,9 +1,10 @@
 import React from 'react';
 
 export default function AppChecker() {
+  const text = "Improve your application to a job, college or other program.";
   return (
     <div className="bg-white rounded-lg shadow-lg p-6">
-      <p className="text-gray-600 mb-4">Improve your application to a job, college or other program.</p>
+      <p className="text-gray-600 mb-4">{text}</p>
       <div className="mb-4">
         <p className="mb-2">
           <span className="inline-block bg-blue-100 rounded-full px-3 py-1 text-sm font-semibold text-blue-700 mr-2">#1</span>
