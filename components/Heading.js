@@ -11,7 +11,7 @@ export default function AppChecker() {
           Input your 
           <span className="inline-block bg-green-100 p-1 text-sm font-semibold text-blue-700">
           application writing
-          </span>. This might be a question such as *Why is this college the right choice for you?* Or *How does our company&apos;s mission align with your beliefs?* etc.
+          </span>. This might be a question such as *Why is this college the right choice for you?* Or *How does our mission align with your beliefs?* etc.
         </p>
         <p className="mb-2">
           <span className="inline-block bg-blue-100 rounded-full px-3 py-1 text-sm font-semibold text-blue-700 mr-2">#2</span>
